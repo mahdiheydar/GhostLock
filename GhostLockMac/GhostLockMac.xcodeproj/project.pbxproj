@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		991361962CA3C27C003C037D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9913617C2CA3C27B003C037D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 991361832CA3C27B003C037D;
+			remoteInfo = GhostLockMac;
+		};
+		991361A02CA3C27C003C037D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9913617C2CA3C27B003C037D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 991361832CA3C27B003C037D;
+			remoteInfo = GhostLockMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		991361842CA3C27B003C037D /* GhostLockMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GhostLockMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		991361952CA3C27C003C037D /* GhostLockMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GhostLockMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9913619F2CA3C27C003C037D /* GhostLockMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GhostLockMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		991361862CA3C27B003C037D /* GhostLockMac */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GhostLockMac;
+			sourceTree = "<group>";
+		};
+		991361982CA3C27C003C037D /* GhostLockMacTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GhostLockMacTests;
+			sourceTree = "<group>";
+		};
+		991361A22CA3C27C003C037D /* GhostLockMacUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GhostLockMacUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		991361812CA3C27B003C037D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991361922CA3C27C003C037D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9913619C2CA3C27C003C037D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9913617B2CA3C27B003C037D = {
+			isa = PBXGroup;
+			children = (
+				991361862CA3C27B003C037D /* GhostLockMac */,
+				991361982CA3C27C003C037D /* GhostLockMacTests */,
+				991361A22CA3C27C003C037D /* GhostLockMacUITests */,
+				991361852CA3C27B003C037D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		991361852CA3C27B003C037D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				991361842CA3C27B003C037D /* GhostLockMac.app */,
+				991361952CA3C27C003C037D /* GhostLockMacTests.xctest */,
+				9913619F2CA3C27C003C037D /* GhostLockMacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		991361832CA3C27B003C037D /* GhostLockMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 991361A92CA3C27C003C037D /* Build configuration list for PBXNativeTarget "GhostLockMac" */;
+			buildPhases = (
+				991361802CA3C27B003C037D /* Sources */,
+				991361812CA3C27B003C037D /* Frameworks */,
+				991361822CA3C27B003C037D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				991361862CA3C27B003C037D /* GhostLockMac */,
+			);
+			name = GhostLockMac;
+			packageProductDependencies = (
+			);
+			productName = GhostLockMac;
+			productReference = 991361842CA3C27B003C037D /* GhostLockMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		991361942CA3C27C003C037D /* GhostLockMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 991361AC2CA3C27C003C037D /* Build configuration list for PBXNativeTarget "GhostLockMacTests" */;
+			buildPhases = (
+				991361912CA3C27C003C037D /* Sources */,
+				991361922CA3C27C003C037D /* Frameworks */,
+				991361932CA3C27C003C037D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				991361972CA3C27C003C037D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				991361982CA3C27C003C037D /* GhostLockMacTests */,
+			);
+			name = GhostLockMacTests;
+			packageProductDependencies = (
+			);
+			productName = GhostLockMacTests;
+			productReference = 991361952CA3C27C003C037D /* GhostLockMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9913619E2CA3C27C003C037D /* GhostLockMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 991361AF2CA3C27C003C037D /* Build configuration list for PBXNativeTarget "GhostLockMacUITests" */;
+			buildPhases = (
+				9913619B2CA3C27C003C037D /* Sources */,
+				9913619C2CA3C27C003C037D /* Frameworks */,
+				9913619D2CA3C27C003C037D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				991361A12CA3C27C003C037D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				991361A22CA3C27C003C037D /* GhostLockMacUITests */,
+			);
+			name = GhostLockMacUITests;
+			packageProductDependencies = (
+			);
+			productName = GhostLockMacUITests;
+			productReference = 9913619F2CA3C27C003C037D /* GhostLockMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9913617C2CA3C27B003C037D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					991361832CA3C27B003C037D = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					991361942CA3C27C003C037D = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 991361832CA3C27B003C037D;
+					};
+					9913619E2CA3C27C003C037D = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 991361832CA3C27B003C037D;
+					};
+				};
+			};
+			buildConfigurationList = 9913617F2CA3C27B003C037D /* Build configuration list for PBXProject "GhostLockMac" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9913617B2CA3C27B003C037D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 991361852CA3C27B003C037D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				991361832CA3C27B003C037D /* GhostLockMac */,
+				991361942CA3C27C003C037D /* GhostLockMacTests */,
+				9913619E2CA3C27C003C037D /* GhostLockMacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		991361822CA3C27B003C037D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991361932CA3C27C003C037D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9913619D2CA3C27C003C037D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		991361802CA3C27B003C037D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991361912CA3C27C003C037D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9913619B2CA3C27C003C037D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		991361972CA3C27C003C037D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 991361832CA3C27B003C037D /* GhostLockMac */;
+			targetProxy = 991361962CA3C27C003C037D /* PBXContainerItemProxy */;
+		};
+		991361A12CA3C27C003C037D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 991361832CA3C27B003C037D /* GhostLockMac */;
+			targetProxy = 991361A02CA3C27C003C037D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		991361A72CA3C27C003C037D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		991361A82CA3C27C003C037D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		991361AA2CA3C27C003C037D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GhostLockMac/GhostLockMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GhostLockMac/Preview Content\"";
+				DEVELOPMENT_TEAM = C2YTPDQ5EU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GhostLockMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		991361AB2CA3C27C003C037D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GhostLockMac/GhostLockMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GhostLockMac/Preview Content\"";
+				DEVELOPMENT_TEAM = C2YTPDQ5EU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GhostLockMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		991361AD2CA3C27C003C037D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2YTPDQ5EU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GhostLockMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GhostLockMac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GhostLockMac";
+			};
+			name = Debug;
+		};
+		991361AE2CA3C27C003C037D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2YTPDQ5EU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GhostLockMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GhostLockMac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GhostLockMac";
+			};
+			name = Release;
+		};
+		991361B02CA3C27C003C037D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2YTPDQ5EU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GhostLockMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GhostLockMac;
+			};
+			name = Debug;
+		};
+		991361B12CA3C27C003C037D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2YTPDQ5EU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GhostLockMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GhostLockMac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9913617F2CA3C27B003C037D /* Build configuration list for PBXProject "GhostLockMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991361A72CA3C27C003C037D /* Debug */,
+				991361A82CA3C27C003C037D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		991361A92CA3C27C003C037D /* Build configuration list for PBXNativeTarget "GhostLockMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991361AA2CA3C27C003C037D /* Debug */,
+				991361AB2CA3C27C003C037D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		991361AC2CA3C27C003C037D /* Build configuration list for PBXNativeTarget "GhostLockMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991361AD2CA3C27C003C037D /* Debug */,
+				991361AE2CA3C27C003C037D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		991361AF2CA3C27C003C037D /* Build configuration list for PBXNativeTarget "GhostLockMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991361B02CA3C27C003C037D /* Debug */,
+				991361B12CA3C27C003C037D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9913617C2CA3C27B003C037D /* Project object */;
+}
